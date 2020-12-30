@@ -1,0 +1,21 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "jsonschema": "^1.4.0",
+        "mosca": "^2.8.3",
+        "mqtt": "^4.2.6",
+        "mqtt-server": "^0.1.0"
+    },
+    "scripts": {
+        "broker": "nodemon src/broker.js",
+        "sub": "nodemon src/sub.js",
+        "pub": "nodemon src/pub.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6",
+        "sucrase": "^3.16.0"
+    }
+}
